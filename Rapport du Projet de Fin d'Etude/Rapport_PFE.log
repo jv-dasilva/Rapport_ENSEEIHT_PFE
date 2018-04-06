@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.6)  5 APR 2018 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.6)  6 APR 2018 16:26
 entering extended mode
 **./Rapport_PFE.tex
 (Rapport_PFE.tex
@@ -1250,23 +1250,23 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 (0x-conclusion.aux) (0y-Annexes.aux))
 \openout1 = `Rapport_PFE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
-LaTeX Font Info:    ... okay on input line 181.
-LaTeX Info: Redefining \degres on input line 181.
-LaTeX Info: Redefining \dots on input line 181.
-LaTeX Info: Redefining \up on input line 181.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Info: Redefining \degres on input line 183.
+LaTeX Info: Redefining \dots on input line 183.
+LaTeX Info: Redefining \up on input line 183.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1305,7 +1305,7 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
 \AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring ON on input line 181.
+Package hyperref Info: Link coloring ON on input line 183.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1314,9 +1314,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 181.
-LaTeX Info: Redefining \pageref on input line 181.
-LaTeX Info: Redefining \nameref on input line 181.
+LaTeX Info: Redefining \ref on input line 183.
+LaTeX Info: Redefining \pageref on input line 183.
+LaTeX Info: Redefining \nameref on input line 183.
 
 (Rapport_PFE.out) (Rapport_PFE.out)
 \@outlinefile=\write5
@@ -1332,20 +1332,20 @@ Package epstopdf Info: Source file: <images/logo-enseeiht.eps>
 (epstopdf)                    size: 46690 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/logo-enseeiht-eps-co
 nverted-to.pdf images/logo-enseeiht.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
-<images/logo-enseeiht-eps-converted-to.pdf, id=118, 239.89626pt x 42.1575pt>
+<images/logo-enseeiht-eps-converted-to.pdf, id=110, 239.89626pt x 42.1575pt>
 File: images/logo-enseeiht-eps-converted-to.pdf Graphic file (type pdf)
 <use images/logo-enseeiht-eps-converted-to.pdf>
 Package pdftex.def Info: images/logo-enseeiht-eps-converted-to.pdf  used on inp
-ut line 190.
+ut line 192.
 (pdftex.def)             Requested size: 460.72124pt x 80.97038pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 209.
+LaTeX Font Info:    Try loading font information for U+msa on input line 211.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 209.
+LaTeX Font Info:    Try loading font information for U+msb on input line 211.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1356,10 +1356,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 /logo-enseeiht-eps-converted-to.pdf>] [2
 
 ]
-<images/logo-actia.png, id=136, 187.45032pt x 42.91031pt>
+<images/logo-actia.png, id=128, 187.45032pt x 42.91031pt>
 File: images/logo-actia.png Graphic file (type png)
 <use images/logo-actia.png>
-Package pdftex.def Info: images/logo-actia.png  used on input line 236.
+Package pdftex.def Info: images/logo-actia.png  used on input line 238.
 (pdftex.def)             Requested size: 368.57838pt x 84.37859pt.
  [1
 
@@ -1405,7 +1405,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.309 \include{01-introduction}
+l.311 \include{01-introduction}
                                 [1
 
 
@@ -1415,7 +1415,7 @@ l.309 \include{01-introduction}
 
  (02-Circuits-UCM-Nano.tex
 Chapitre 1.
-<images/reponse-theorique-diode.jpg, id=262, 390.45876pt x 290.08376pt>
+<images/reponse-theorique-diode.jpg, id=254, 390.45876pt x 290.08376pt>
 File: images/reponse-theorique-diode.jpg Graphic file (type jpg)
 <use images/reponse-theorique-diode.jpg>
 Package pdftex.def Info: images/reponse-theorique-diode.jpg  used on input line
@@ -1438,13 +1438,13 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<images/circuit-courbe-transil.png, id=269, 679.78969pt x 213.79875pt>
+<images/circuit-courbe-transil.png, id=261, 679.78969pt x 213.79875pt>
 File: images/circuit-courbe-transil.png Graphic file (type png)
 <use images/circuit-courbe-transil.png>
 Package pdftex.def Info: images/circuit-courbe-transil.png  used on input line 
 34.
 (pdftex.def)             Requested size: 368.57838pt x 115.91937pt.
-<images/reponse-diode-transil.png, id=270, 1056.19594pt x 549.55313pt>
+<images/reponse-diode-transil.png, id=262, 1056.19594pt x 549.55313pt>
 File: images/reponse-diode-transil.png Graphic file (type png)
 <use images/reponse-diode-transil.png>
 Package pdftex.def Info: images/reponse-diode-transil.png  used on input line 4
@@ -1455,12 +1455,12 @@ Underfull \vbox (badness 5817) has occurred while \output is active []
 
  [3 <./images/reponse-theorique-diode.jpg> <./images/circuit-courbe-transil.png
 >]
-<images/regulateur-transil.png, id=285, 664.73344pt x 209.28188pt>
+<images/regulateur-transil.png, id=277, 664.73344pt x 209.28188pt>
 File: images/regulateur-transil.png Graphic file (type png)
 <use images/regulateur-transil.png>
 Package pdftex.def Info: images/regulateur-transil.png  used on input line 50.
 (pdftex.def)             Requested size: 460.72124pt x 145.05289pt.
-<images/reponse-ecreteur-transil.png, id=286, 1060.71281pt x 555.57562pt>
+<images/reponse-ecreteur-transil.png, id=278, 1060.71281pt x 555.57562pt>
 File: images/reponse-ecreteur-transil.png Graphic file (type png)
 <use images/reponse-ecreteur-transil.png>
 Package pdftex.def Info: images/reponse-ecreteur-transil.png  used on input lin
@@ -1470,7 +1470,7 @@ e 57.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./images/reponse-diode-transil.png> <./images/regulateur-transil.png>]
-<images/ecreteur-avec-transistor.png, id=295, 686.565pt x 344.03531pt>
+<images/ecreteur-avec-transistor.png, id=287, 686.565pt x 344.03531pt>
 File: images/ecreteur-avec-transistor.png Graphic file (type png)
 <use images/ecreteur-avec-transistor.png>
 Package pdftex.def Info: images/ecreteur-avec-transistor.png  used on input lin
@@ -1480,7 +1480,7 @@ e 70.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./images/reponse-ecreteur-transil.png>]
-<images/reponse-ecreteur-avec-transistor.png, id=301, 1059.96pt x 552.56438pt>
+<images/reponse-ecreteur-avec-transistor.png, id=293, 1059.96pt x 552.56438pt>
 File: images/reponse-ecreteur-avec-transistor.png Graphic file (type png)
 <use images/reponse-ecreteur-avec-transistor.png>
 Package pdftex.def Info: images/reponse-ecreteur-avec-transistor.png  used on i
@@ -1491,13 +1491,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./images/ecreteur-avec-transistor.png> <./images/reponse-ecreteur-avec-tra
 nsistor.png>]
-<images/schematic_TPS61086.png, id=308, 524.71031pt x 258.21469pt>
+<images/schematic_TPS61086.png, id=300, 524.71031pt x 258.21469pt>
 File: images/schematic_TPS61086.png Graphic file (type png)
 <use images/schematic_TPS61086.png>
 Package pdftex.def Info: images/schematic_TPS61086.png  used on input line 100.
 
 (pdftex.def)             Requested size: 460.72124pt x 226.73317pt.
-<images/circuit-contre-reaction-buck-v1.png, id=309, 532.99126pt x 210.03468pt>
+<images/circuit-contre-reaction-buck-v1.png, id=301, 532.99126pt x 210.03468pt>
 
 File: images/circuit-contre-reaction-buck-v1.png Graphic file (type png)
 <use images/circuit-contre-reaction-buck-v1.png>
@@ -1508,18 +1508,18 @@ put line 110.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./images/schematic_TPS61086.png>]
-<images/carte-buck.png, id=315, 551.81157pt x 380.92313pt>
+<images/carte-buck.png, id=307, 551.81157pt x 380.92313pt>
 File: images/carte-buck.png Graphic file (type png)
 <use images/carte-buck.png>
 Package pdftex.def Info: images/carte-buck.png  used on input line 122.
 (pdftex.def)             Requested size: 186.58957pt x 128.80302pt.
-<images/carte-contre-reaction-buck-v1.png, id=316, 304.88907pt x 298.11375pt>
+<images/carte-contre-reaction-buck-v1.png, id=308, 304.88907pt x 298.11375pt>
 File: images/carte-contre-reaction-buck-v1.png Graphic file (type png)
 <use images/carte-contre-reaction-buck-v1.png>
 Package pdftex.def Info: images/carte-contre-reaction-buck-v1.png  used on inpu
 t line 128.
 (pdftex.def)             Requested size: 186.58957pt x 182.44957pt.
-<images/circuit-contre-reaction-buck-v2.png, id=317, 708.39656pt x 281.55188pt>
+<images/circuit-contre-reaction-buck-v2.png, id=309, 708.39656pt x 281.55188pt>
 
 File: images/circuit-contre-reaction-buck-v2.png Graphic file (type png)
 <use images/circuit-contre-reaction-buck-v2.png>
@@ -1531,24 +1531,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./images/circuit-contre-reaction-buck-v1.png> <./images/carte-buck.png> <.
 /images/carte-contre-reaction-buck-v1.png>]
-<images/schema-manip-helene.pdf, id=327, 845.04686pt x 597.50786pt>
+<images/schema-manip-helene.pdf, id=319, 845.04686pt x 597.50786pt>
 File: images/schema-manip-helene.pdf Graphic file (type pdf)
 <use images/schema-manip-helene.pdf>
-Package pdftex.def Info: images/schema-manip-helene.pdf  used on input line 176
+Package pdftex.def Info: images/schema-manip-helene.pdf  used on input line 171
 .
 (pdftex.def)             Requested size: 460.72124pt x 325.76752pt.
- [9 <./images/circuit-contre-reaction-buck-v2.png>]) [10 <./images/schema-manip
--helene.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/circuit-contre-reaction-buck-v2.png>]
+<images/valise-B_model.png, id=326, 813.79031pt x 626.34pt>
+File: images/valise-B_model.png Graphic file (type png)
+<use images/valise-B_model.png>
+Package pdftex.def Info: images/valise-B_model.png  used on input line 186.
+(pdftex.def)             Requested size: 460.72124pt x 354.59953pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./images/schema-manip-helene.pdf>]) [11 <./images/valise-B_model.png>]
 \openout2 = `03-Acquisition-automatique.aux'.
 
- (03-Acquisition-automatique.tex
+
+(03-Acquisition-automatique.tex
 Chapitre 2.
-<images/U1242C.png, id=359, 204.01219pt x 396.7322pt>
+<images/U1242C.png, id=357, 204.01219pt x 396.7322pt>
 File: images/U1242C.png Graphic file (type png)
 <use images/U1242C.png>
 Package pdftex.def Info: images/U1242C.png  used on input line 19.
 (pdftex.def)             Requested size: 80.62761pt x 156.79527pt.
-<images/U1242C-avec-ordinateur.png, id=360, 490.08093pt x 243.15843pt>
+<images/U1242C-avec-ordinateur.png, id=358, 490.08093pt x 243.15843pt>
 File: images/U1242C-avec-ordinateur.png Graphic file (type png)
 <use images/U1242C-avec-ordinateur.png>
 Package pdftex.def Info: images/U1242C-avec-ordinateur.png  used on input line 
@@ -1557,13 +1569,13 @@ Package pdftex.def Info: images/U1242C-avec-ordinateur.png  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11
+ [12
 
 
 
 ]
-[12 <./images/U1242C.png> <./images/U1242C-avec-ordinateur.png>]
-(images/structure-de-trame-blocs.tex)) [13]
+[13 <./images/U1242C.png> <./images/U1242C-avec-ordinateur.png>]
+(images/structure-de-trame-blocs.tex)) [14]
 \openout2 = `05-Calibration-mesure-de-courant.aux'.
 
 
@@ -1572,35 +1584,39 @@ Chapitre 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14
+ [15
 
 
 
 ]
-<images/switches-carte1-2.png, id=385, 501.37312pt x 599.23875pt>
+[16]
+<images/switches-carte1-2.png, id=390, 501.37312pt x 599.23875pt>
 File: images/switches-carte1-2.png Graphic file (type png)
 <use images/switches-carte1-2.png>
-Package pdftex.def Info: images/switches-carte1-2.png  used on input line 35.
+Package pdftex.def Info: images/switches-carte1-2.png  used on input line 106.
 (pdftex.def)             Requested size: 368.57838pt x 440.54034pt.
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./images/switches-carte1-2.png>] [16]
+ [17])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./images/switches-carte1-2.png>] [19]
 \openout2 = `0x-conclusion.aux'.
 
- (0x-conclusion.tex) [17
+ (0x-conclusion.tex) [20
 
 
 
 ] (Rapport_PFE.bbl)
-[18
+[21
 
 
 ]
 \openout2 = `0y-Annexes.aux'.
 
  (0y-Annexes.tex
-<images/Annexe-cablage-40-651-014.png, id=409, 419.31656pt x 477.28313pt>
+<images/Annexe-cablage-40-651-014.png, id=418, 419.31656pt x 477.28313pt>
 File: images/Annexe-cablage-40-651-014.png Graphic file (type png)
 <use images/Annexe-cablage-40-651-014.png>
 Package pdftex.def Info: images/Annexe-cablage-40-651-014.png  used on input li
@@ -1609,12 +1625,12 @@ ne 7.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [22
 
 
 
 ]
-[20 <./images/Annexe-cablage-40-651-014.png>]
+[23 <./images/Annexe-cablage-40-651-014.png>]
 Package epstopdf Info: Source file: <images/logo-enseeiht.eps>
 (epstopdf)                    date: 2018-03-06 09:26:30
 (epstopdf)                    size: 5475087 bytes
@@ -1624,38 +1640,38 @@ Package epstopdf Info: Source file: <images/logo-enseeiht.eps>
 (epstopdf)                    size: 46690 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/logo-enseeiht-eps-co
 nverted-to.pdf images/logo-enseeiht.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 File: images/logo-enseeiht-eps-converted-to.pdf Graphic file (type pdf)
 <use images/logo-enseeiht-eps-converted-to.pdf>
 Package pdftex.def Info: images/logo-enseeiht-eps-converted-to.pdf  used on inp
-ut line 337.
+ut line 339.
 (pdftex.def)             Requested size: 207.32314pt x 36.43355pt.
 File: images/logo-actia.png Graphic file (type png)
 <use images/logo-actia.png>
-Package pdftex.def Info: images/logo-actia.png  used on input line 348.
+Package pdftex.def Info: images/logo-actia.png  used on input line 350.
 (pdftex.def)             Requested size: 207.32314pt x 47.46205pt.
- [21
+ [24
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 362.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 362.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 364.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 364.
  (Rapport_PFE.aux
 (01-introduction.aux) (02-Circuits-UCM-Nano.aux)
 (03-Acquisition-automatique.aux) (05-Calibration-mesure-de-courant.aux)
 (0x-conclusion.aux) (0y-Annexes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 362.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 362.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 364.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 364.
 Package rerunfilecheck Info: File `Rapport_PFE.out' has not changed.
-(rerunfilecheck)             Checksum: 5485D46485000651E69E180B4D423E74;2291.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 362.
+(rerunfilecheck)             Checksum: EE8D367D08C34B6BD2585A5D90A211DC;2103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 364.
  ) 
 Here is how much of TeX's memory you used:
- 33884 strings out of 493303
- 781233 string characters out of 3138848
+ 33892 strings out of 493303
+ 781429 string characters out of 3138848
  999111 words of memory out of 3000000
- 36653 multiletter control sequences out of 15000+200000
+ 36657 multiletter control sequences out of 15000+200000
  23580 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,12n,128p,737b,1124s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1684,9 +1700,9 @@ lic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 >
-Output written on Rapport_PFE.pdf (31 pages, 1851094 bytes).
+Output written on Rapport_PFE.pdf (34 pages, 3072938 bytes).
 PDF statistics:
- 1088 PDF objects out of 1200 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 332 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1091 PDF objects out of 1200 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

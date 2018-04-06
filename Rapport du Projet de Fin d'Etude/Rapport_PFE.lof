@@ -12,9 +12,10 @@
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Convertisseur DC-DC buck et son circuit de contre-r\IeC {\'e}action.\relax }}{8}{figure.caption.19}
 \contentsline {figure}{\numberline {1.11}{\ignorespaces Deuxi\IeC {\`e}me prototype de la carte \IeC {\'e}lectronique du circuit de contre-r\IeC {\'e}action pour le buck.\relax }}{9}{figure.caption.20}
 \contentsline {figure}{\numberline {1.12}{\ignorespaces Sch\IeC {\'e}ma de la manipulation pour des tests du A-model.\relax }}{10}{figure.caption.21}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Valise de test du B-model.\relax }}{11}{figure.caption.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Multim\IeC {\`e}tre Keysight U1242C et sa connection avec un ordinateur.\relax }}{12}{figure.caption.22}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure de la trame d'un bus de communication CAN.\relax }}{13}{figure.caption.24}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Multim\IeC {\`e}tre Keysight U1242C et sa connection avec un ordinateur.\relax }}{13}{figure.caption.23}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Structure de la trame d'un bus de communication CAN.\relax }}{14}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Connection des sorties de l'UCM Nano et des charges avec les banques d'interrupteurs.\relax }}{15}{figure.caption.25}
-\contentsline {figure}{\numberline {2}{\ignorespaces connections du module 40-651-014.\relax }}{20}{figure.caption.29}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Connection des sorties de l'UCM Nano et des charges avec les banques d'interrupteurs.\relax }}{18}{figure.caption.27}
+\contentsline {figure}{\numberline {2}{\ignorespaces connections du module 40-651-014.\relax }}{23}{figure.caption.31}
