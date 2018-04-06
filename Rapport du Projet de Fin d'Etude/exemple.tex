@@ -1,0 +1,73 @@
+\chapter{Premier chapitre}
+\label{chap:premierchapitre_exemple}
+
+\section{Une section}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit \cite{Roque2012,Roque2012b,Roque2012c,Roque2012d}. 
+Curabitur eu amet (fig. \ref{fig:une-image}). Deux citations \cite{Arapoglou2011,Roque2013c}.
+
+\begin{figure}[htp]
+  \centering
+  \input{images/tikz_diagram}
+  \caption{Exemple de diagramme TikZ.}
+  \label{fig:une-image}
+\end{figure}
+
+\section{Une autre section}
+ bla bla bla \cite{Thompson2013raey}.
+
+
+\subsection{Código fonte}
+A inserção de código fonte deve ser por meio do comando \textit{lstlisting}.
+
+\begin{lstlisting}
+int main(){
+  int a,b,c;
+  float x;
+  printf("informe o tamanho do lado do quadrado");
+  scanf("%d", &a);
+  printf("A area do quadrado %d", b=area(a));
+  printf("Duas vezes o valor do lado do quadrado %d", c=aumenta(a));
+}
+\end{lstlisting}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "isae-report-template"
+%%% End: 
+
+\chapter{Un chapitre}
+\label{sec:unchapitre}
+
+
+ Encore une citation \cite{Cadambe2008}.
+
+\begin{figure}[htp!]
+  \centering
+  \setlength\figureheight{7cm}
+  \setlength\figurewidth{9cm}
+  \input{images/tikz_plot}
+  \caption{Exemple de courbe TikZ.}
+  \label{fig:courbe-tikz}
+\end{figure}
+
+\section{Analyse aux limites}
+
+
+\subsection{Quelques détails sur cette méthode}
+
+
+\subsection{On n'est jamais très fort pour ce calcul}
+
+
+\begin{align}
+H_{m,n,p,q} &= \DPR{\rproto_{p,q}}{\OP{H} \tproto_{m,n}}\\
+&= \iint\limits_{\SET{R}^2} S_{\OP{H}}(f,\tau) \DPR{\rproto_{p,q}}{\OP{U}_{f,\tau} \tproto_{m,n}} \ud f \ud \tau.
+\end{align}
+
+\section{Vérification par simulation numérique}
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "isae-report-template"
+%%% End: 

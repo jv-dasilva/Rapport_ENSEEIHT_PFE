@@ -1,0 +1,11 @@
+% This file was created with JabRef 2.8.1.
+% Encoding: UTF8
+
+@MISC{website1,
+	HOWPUBLISHED = "\url{http://www.ni.com/teststand/f/}",
+	AUTHOR = "National Instruments",
+	TITLE = "TestStand",	
+	YEAR = "2017",
+	NOTE = "Consulté le 20 mars 2018"
+}
+

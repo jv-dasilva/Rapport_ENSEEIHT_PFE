@@ -1,0 +1,362 @@
+% A LaTeX (non-official) template for ISAE projects reports
+% Copyright (C) 2014 Damien Roque
+% Version: 0.2
+% Author: Damien Roque <damien.roque_AT_isae.fr>
+
+\documentclass[a4paper,12pt,openany]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel} % If you write in French
+%\usepackage[english]{babel} % If you write in English
+\usepackage{a4wide}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+%\usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\pgfplotsset{plot coordinates/math parser=false}
+\newlength\figureheight
+\newlength\figurewidth
+\pgfkeys{/pgf/number format/.cd,
+set decimal separator={,\!},
+1000 sep={\,},
+}
+\usepackage{ifthen}
+\usepackage{ifpdf}
+\ifpdf
+\usepackage[pdftex]{hyperref}
+\else
+\usepackage{hyperref}
+\fi
+\usepackage{color}
+\hypersetup{%
+colorlinks=true,
+linkcolor=black,
+citecolor=black,
+urlcolor=black}
+
+\renewcommand{\baselinestretch}{1.05}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[RE]{\bfseries\nouppercase{\leftmark}}
+\fancyhead[LO]{\bfseries\nouppercase{\rightmark}}
+\setlength{\headheight}{15pt}
+
+\let\headruleORIG\headrule
+\renewcommand{\headrule}{\color{black} \headruleORIG}
+\renewcommand{\headrulewidth}{1.0pt}
+\usepackage{colortbl}
+\arrayrulecolor{black}
+
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\makeatletter
+\def\@textbottom{\vskip \z@ \@plus 1pt}
+\let\@texttop\relax
+\makeatother
+
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+  \hbox{}%
+  \thispagestyle{empty}%
+  \newpage%
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\usepackage{amsthm}
+\usepackage{amssymb,amsmath,bbm}
+\usepackage{array}
+\usepackage{bm}
+\usepackage{multirow}
+\usepackage[footnote]{acronym}
+
+\newcommand*{\SET}[1]  {\ensuremath{\mathbf{#1}}}
+\newcommand*{\VEC}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand*{\FAM}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand*{\MAT}[1]  {\ensuremath{\boldsymbol{#1}}}
+\newcommand*{\OP}[1]  {\ensuremath{\mathrm{#1}}}
+\newcommand*{\NORM}[1]  {\ensuremath{\left\|#1\right\|}}
+\newcommand*{\DPR}[2]  {\ensuremath{\left \langle #1,#2 \right \rangle}}
+\newcommand*{\calbf}[1]  {\ensuremath{\boldsymbol{\mathcal{#1}}}}
+\newcommand*{\shift}[1]  {\ensuremath{\boldsymbol{#1}}}
+
+\newcommand{\eqdef}{\stackrel{\mathrm{def}}{=}}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\newcommand{\ud}{\, \mathrm{d}}
+\newcommand{\vect}{\text{Vect}}
+\newcommand{\sinc}{\ensuremath{\mathrm{sinc}}}
+\newcommand{\esp}{\ensuremath{\mathbb{E}}}
+\newcommand{\hilbert}{\ensuremath{\mathcal{H}}}
+\newcommand{\fourier}{\ensuremath{\mathcal{F}}}
+\newcommand{\sgn}{\text{sgn}}
+\newcommand{\intTT}{\int_{-T}^{T}}
+\newcommand{\intT}{\int_{-\frac{T}{2}}^{\frac{T}{2}}}
+\newcommand{\intinf}{\int_{-\infty}^{+\infty}}
+\newcommand{\Sh}{\ensuremath{\boldsymbol{S}}}
+\newcommand{\C}{\SET{C}}
+\newcommand{\R}{\SET{R}}
+\newcommand{\Z}{\SET{Z}}
+\newcommand{\N}{\SET{N}}
+\newcommand{\K}{\SET{K}}
+\newcommand{\reel}{\mathcal{R}}
+\newcommand{\imag}{\mathcal{I}}
+\newcommand{\cmnr}{c_{m,n}^\reel}
+\newcommand{\cmni}{c_{m,n}^\imag}
+\newcommand{\cnr}{c_{n}^\reel}
+\newcommand{\cni}{c_{n}^\imag}
+\newcommand{\tproto}{g}
+\newcommand{\rproto}{\check{g}}
+\newcommand{\LR}{\mathcal{L}_2(\SET{R})}
+\newcommand{\LZ}{\ell_2(\SET{Z})}
+\newcommand{\LZI}[1]{\ell_2(\SET{#1})}
+\newcommand{\LZZ}{\ell_2(\SET{Z}^2)}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\noise}{z}
+\newcommand{\Noise}{Z}
+\newcommand{\filtnoise}{\zeta}
+\newcommand{\tp}{g}
+\newcommand{\rp}{\check{g}}
+\newcommand{\TP}{G}
+\newcommand{\RP}{\check{G}}
+\newcommand{\dmin}{d_{\mathrm{min}}}
+\newcommand{\Dmin}{D_{\mathrm{min}}}
+\newcommand{\Image}{\ensuremath{\text{Im}}}
+\newcommand{\Span}{\ensuremath{\text{Span}}}
+
+\newtheoremstyle{break}
+  {11pt}{11pt}%
+  {\itshape}{}%
+  {\bfseries}{}%
+  {\newline}{}%
+\theoremstyle{break}
+
+%\theoremstyle{definition}
+\newtheorem{definition}{Définition}[chapter]
+
+%\theoremstyle{definition}
+\newtheorem{theoreme}{Théorème}[chapter]
+
+%\theoremstyle{remark}
+\newtheorem{remarque}{Remarque}[chapter]
+
+%\theoremstyle{plain}
+\newtheorem{propriete}{Propriété}[chapter]
+\newtheorem{exemple}{Exemple}[chapter]
+
+\parskip=5pt
+%\sloppy
+
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{float}
+
+\definecolor{verde}{rgb}{0,0.5,0}
+
+%para customizar o código (ver https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings)
+\lstset{language=C, %defina a linguagem usada no trabalho
+              belowcaptionskip=1\baselineskip,
+                breaklines=true,
+                frame=false,
+                xleftmargin=\parindent,
+                showstringspaces=false,
+                basicstyle=\footnotesize\ttfamily,
+%                keywordstyle=\bfseries\color{green!40!black},
+%                commentstyle=\itshape\color{purple!40!black},
+%                identifierstyle=\color{blue},
+%                stringstyle=\color{orange},
+                numbers=left,
+            }
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%
+%%% First page %%%
+%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+\begin{center}
+
+\includegraphics[width=1.00\textwidth]{logo-enseeiht}\\
+
+{\LARGE Électronique et Traitement du Signal \\[0.2cm] Circuits Intégrés - Analogique}\\[0.30cm]
+
+{\LARGE Projet de fin d'étude}\\[2.5cm]
+
+% Title
+\rule{\linewidth}{0.5mm} \\[0.4cm]
+{ \huge \bfseries Projet UCM Nano\\[0.4cm] }
+\rule{\linewidth}{0.5mm} \\[2.5cm]
+
+% Author and supervisor
+\noindent
+\begin{minipage}{0.4\textwidth}
+  \begin{flushleft} \large
+    \emph{Auteur :}\\
+    João Victor \textsc{Da Silva}
+    %M\up{me} Prénom \textsc{Nom}
+  \end{flushleft}
+\end{minipage}%
+\begin{minipage}{0.5\textwidth}
+  \begin{flushright} \large
+    \emph{Tuteurs :} \\
+    ~Olivier \textsc{Bernal} (ENSEEIHT)\\
+    ~Sébastien \textsc{Courtial} (ACTIA)
+  \end{flushright}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large Toulouse\\ \today}
+
+\end{center}
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Non-significant pages %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+\clearpage
+
+\chapter*{}
+\begin{figure}[!t]
+    \centering
+    \includegraphics[width=0.80\textwidth]{logo-actia}\\
+\end{figure}
+
+\begin{center} 
+    %\vspace*{\fill}
+    \Large{ \textbf{Intégration dans une équipe pour participer à la conception de cartes électroniques et réalisation de tests de validation et de qualification d'une unité de contrôle électronique pour l'automobile en version miniaturisée.}}
+\end{center}
+
+\vspace*{\fill}
+\begin{center} \large
+    \textbf{Contrat de professionnalisation effectué chez ACTIA\\
+    Du 04 septembre 2017 au 28 septembre 2018.}
+\end{center}
+
+\clearpage
+
+\chapter*{Remerciements}
+
+Tout d'abord je tiens à remercier...
+
+Sébastien COURTIAL ; Michel FACON ; Vincent MALISOVA ; Luc IMBEAUD
+
+Sylvie RIETHMULLER ; Danielle ANDREU ; Maryse RUMEAU ; Alan  (cara do trabalho da Sylvie)
+
+\clearpage
+\tableofcontents
+
+\clearpage
+\listoffigures
+
+%\clearpage
+%\listoftables
+
+\clearpage
+
+\chapter*{Liste des sigles et acronymes}
+\begin{acronym}[CP-OFDMX] % Give the longest acronym here
+\item{Français :}\newline
+\acro{INP}{\emph{Institut National Polytechnique}}
+\acro{ENSEEIHT}{\emph{École Nationale Supérieure d'Électrotechnique, d'Électronique, d'Informatique, d'Hydraulique et des Télécommunications}}
+\acro{NRZ}{\emph{Non Retour à Zéro}}\newline
+\item{Anglais :}\newline
+\acro{UCM}{\emph{Universal Controller Module}}
+\acro{CAN}{\emph{Controller Area Network}}
+\acro{LIN}{\emph{Local Interconnect Network}}
+\acro{LSD}{\emph{Low Side Driver}}
+\acro{HSD}{\emph{High Side Driver}}
+\acro{TVS}{\emph{Transient Voltage Suppression}}
+
+\end{acronym}
+
+\clearpage
+%\vspace*{\fill}
+
+\chapter*{}
+\noindent\rule[2pt]{\textwidth}{0.5pt}\\
+{\textbf{Résumé ---}}
+écrire un résumé ici...
+\\
+{\textbf{Mots clés :}}
+Micro-contrôleur, automobile, ...
+\\
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+%\vspace*{\fill}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Content of the report and references %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
+\pagestyle{fancy}
+\cleardoublepage
+
+\include{01-introduction}
+\include{02-Circuits-UCM-Nano}
+\include{03-Acquisition-automatique}
+\include{05-Calibration-mesure-de-courant}
+\include{0x-conclusion}
+
+\appendix
+
+%\bibliographystyle{authoryear-fr}
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\clearpage
+
+\include{0y-Annexes}
+
+%%%%%%%%%%%%%%%%
+%%% Abstract %%%
+%%%%%%%%%%%%%%%%
+\clearpage
+\thispagestyle{empty}
+
+% Adresse de l'école et de l'entreprise
+\vspace*{\fill}
+\begin{center}
+\noindent
+\begin{minipage}{0.5\textwidth}
+  \begin{flushleft} \large
+    \includegraphics[width=0.90\textwidth]{logo-enseeiht}\\[0.5cm]
+    INP Toulouse - ENSEEIHT\\
+    2, rue Charles Camichel - BP 7122\\
+    31071 Toulouse Cedex 7, France\\
+    Tel. +33 (0)5 34 32 20 00\\
+    http://www.enseeiht.fr
+  \end{flushleft}
+\end{minipage}%\\[2cm]
+\vspace*{\fill}
+\begin{minipage}{0.5\textwidth}
+  \begin{flushleft} \large
+    \includegraphics[width=0.90\textwidth]{logo-actia}\\[0.5cm]
+    ACTIA Automotive\\
+    5, rue Jorge Semprun - BP 74215\\
+    31432 Toulouse Cedex 4, France\\
+    Tel. +33 (0)5 61 17 44 24\\
+   % Fax + 33 (0)5 61 55 42 31\\
+    http://www.actia.com
+  \end{flushleft}
+\end{minipage}
+
+\end{center}
+\vspace*{\fill}
+    
+
+\end{document}

@@ -1,0 +1,61 @@
+\chapter{Calibration de la mesure de courant}
+
+La carte électronique UCM Nano est capable de réaliser des mesures de tension, courant, résistance, température, fréquence, rapport cyclique et l'état d'un signal logique. 
+
+\section{Séquences de test sur TestStand}
+
+Pour calibrer la carte électronique il faut calculer le gain et l'offset à partir des mesures avec un multimètre (données calibrées) et des mesures directes de la carte UCM Nano (données pas calibrées).
+
+Dans le développement de notre plan de test, nous avons défini des scénario de test ; des étapes de test ; des pas de test et des fonctions. Les fonction sont des briques de base utilisés dans les pas de test, ceux-ci font des pas basique que seront utilisés par des étapes de tests, chaque étape de test est composée par une séquence de pas basiques qui font une tâche plus complexe. Dans chaque scénario de test, ce sont réalisés des tests complètes pour différents types de dispositif sous test et/ou différents configurations du dispositif sous test.
+
+Nous avons deux scénarios de test : Standard 0 et Standard 3. 
+
+Mettre un table
+
+Les étapes de test sont les suivants : 
+
+
+
+\begin{itemize}
+\item 
+
+\end{itemize}
+
+
+\section{Connection de la sortie et des charges}
+
+Nous connectons les sorties de la carte UCM Nano et les charges par des interrupteurs. La banque d'interrupteurs utilisé est la \textit{5A Power EMR MUX Module}, code du modèle chez \emph{Pikering} : 40-651-014. Pour piloter cette carte, et d'autres modules, nous avons utilisé un châssis avec 18 \textit{slots}.
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{images/switches-carte1-2}
+    \caption{Connection des sorties de l'UCM Nano et des charges avec les banques d'interrupteurs.}
+    \label{fig:switches-carte1-2}
+\end{figure}
+
+
+\section{Activation des sorties de l'UCM Nano}
+
+
+\section{Mesure du courant}
+
+\subsection{Mesure de courant avec le multimètre}
+
+
+
+\subsection{Mesure de courant avec la carte}
+
+
+
+\section{Calcule du gain et de l'\textit{offset}}
+
+
+
+
+
+\section{Écriture dans la mémoire}
+
+
+
+%\section{Vérification de la calibration}
